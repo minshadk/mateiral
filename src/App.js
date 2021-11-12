@@ -5,10 +5,10 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Notes from "./pages/Notes";
 import Create from "./pages/Create";
 
-import { createMuiTheme, ThemeProvider } from "@mui/material/styles";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { purple } from "@mui/material/colors";
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     primary: {
       main: "#fefefe",
